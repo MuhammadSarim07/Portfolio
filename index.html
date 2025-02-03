@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Sarim | Portfolio</title>
+    <meta name="title" content="Muhammad Sarim" />
+    <meta name="description"
+        content="Welcome to my portfolio! I am currently pursuing my Bachelor's degree in Software Engineering." />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="hero">
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a class="nav-link" href="#">HOME</a></li>
+                    <li><a class="nav-link" href="#introduction">INTRODUCTION</a></li>
+                    <li><a class="nav-link" href="#technologies">TECHNOLOGIES</a></li>
+                    <li><a class="nav-link" href="#tools">TOOLS</a></li>
+                    <li><a class="nav-link" href="#skills">SKILLS</a></li>
+                    <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+                    <li><a class="nav-link" href="#contact">CONTACT</a></li>
+                    <div class="theme-switch">
+                        <input type="checkbox" id="switch" />
+                        <label class="toggle-icons" for="switch">
+                            <img class="moon" src="images/darkmode.svg" />
+                            <img class="sun" src="images/lightmode.svg" />
+                        </label>
+                    </div>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="introduction" class="container">
+        <h2>Introduction</h2>
+        <p>I am currently pursuing a Bachelor's degree in Software Engineering, with a focus on building impactful web
+            solutions. My goal is to continuously improve my skills in software development and work on challenging
+            projects.</p>
+    </section>
+
+    <section id="technologies" class="section-container technologies">
+        <h2 class="section-title technologies-title">Technologies</h2>
+        <p class="section-description technologies-description">Some of the technologies I am proficient in include:</p>
+        <ul class="technologies-list">
+            <li class="technologies-item">
+                HTML, CSS, JavaScript <br>
+                <img src="images/html5.svg" alt="HTML" class="tech-icon" />
+                <img src="images/css3.svg" alt="CSS" class="tech-icon" />
+                <img src="images/javascript.svg" alt="JS" class="tech-icon" />
+            </li>
+            <li class="technologies-item">
+                Java, C# <br>
+                <img src="images/java.svg" alt="Java" class="tech-icon" />
+                <img src="images/c-sharp.svg" alt="C#" class="tech-icon" />
+            </li>
+            <li class="technologies-item">
+                MySQL, Oracle <br>
+                <img src="images/mysql.svg" alt="MySQL" class="tech-icon" />
+                <img src="images/oracle.svg" alt="Oracle" class="tech-icon" />
+            </li>
+        </ul>
+    </section>
+
+    <section id="tools" class="section-container tools">
+        <h2 class="section-title tools-title">Tools</h2>
+        <p class="section-description tools-description">I have experience working with the following tools:</p>
+        <ul class="tools-list">
+            <li class="tools-item">
+                <img src="images/git.svg" alt="Git" class="tool-icon" />
+                <img src="images/github.svg" alt="GitHub" class="tool-icon" />
+                Git, GitHub
+            </li>
+            <li class="tools-item">
+                <img src="images/xampp.svg" alt="XAMPP" class="tool-icon" />
+                <img src="images/docker.svg" alt="Docker" class="tool-icon" />
+                XAMPP, Docker
+            </li>
+            <li class="tools-item">
+                <img src="images/visual-studio.svg" alt="Visual Studio" class="tool-icon" />
+                <img src="images/intellij-idea.svg" alt="IntelliJ IDEA" class="tool-icon" />
+                Visual Studio, IntelliJ IDEA
+            </li>
+        </ul>
+    </section>
+
+    <section id="skills" class="section-container skills">
+        <h2 class="section-title skills-title">Skills</h2>
+        <p class="section-description skills-description">My skillset includes:</p>
+        <ul class="skills-list">
+            <li class="skills-item">
+                <img src="images/web-development.jpg" alt="Web Development" class="skill-icon" />
+                Web Development
+            </li>
+            <li class="skills-item">
+                <img src="images/ui-ux.jpeg" alt="UI/UX Design" class="skill-icon" />
+                UI/UX Design
+            </li>
+            <li class="skills-item">
+                <img src="images/app-development.jpg" alt="App Development" class="skill-icon" />
+                Problem Solving
+            </li>
+        </ul>
+    </section>
+    <section id="projects" class="project-container container">
+        <div class="division"></div>
+        <div class="content-text">
+            <h2 style="color: red;">My Projects</h2>
+            <p>Here are some of the projects I have worked on.</p>
+        </div>
+
+        <article class="project">
+            <div class="card">
+                <div class="project-info">
+                    <div class="project-bio">
+                        <h3 style="color: red;">Multilingual Dictionary</h3>
+                        <p>Java, Swing, MySQL, XAMPP</p>
+                        <p>A multilingual dictionary allowing users to look up words in different languages, add new
+                            entries, and update existing ones.</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/dictionary.jpeg" alt="Multilingual Dictionary Project" />
+                    </div>
+                    <div class="project-link">
+                        <a href="YOUR_GITHUB_PROJECT_LINK" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="project-info">
+                    <div class="project-bio">
+                        <h3 style="color: red;">E-commerce Store - Men</h3>
+                        <p>C#, .NET, Oracle</p>
+                        <p>A desktop-based e-commerce store for men's fashion, featuring product listings, customer
+                            orders, and payment processing.</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/eCommerce.jpg" alt="E-commerce Store Project" />
+                    </div>
+                    <div class="project-link">
+                        <a href="YOUR_GITHUB_PROJECT_LINK" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="project-info">
+                    <div class="project-bio">
+                        <h3 style="color: red;">IHS - Clothing Store</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                        <p>A modern clothing store website with a responsive design, featuring a shopping cart and
+                            product listings.</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/clothing.jpg" alt="IHS Clothing Store Project" />
+                    </div>
+                    <div class="project-link">
+                        <a href="YOUR_GITHUB_PROJECT_LINK" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+    <section>
+        <div id="contact-form-popup" class="popup">
+            <div class="popup-content">
+                <h2>Contact Me</h2>
+                <form action="https://formspree.io/f/xpwqroba" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Your Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Type your message here..."
+                            required></textarea>
+                    </div>
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://github.com/M-Sarim" target="_blank" aria-label="GitHub">
+                <img src="images/github.svg" alt="GitHub" />
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-sarim-/" target="_blank" aria-label="LinkedIn">
+                <img src="images/linkedin.svg" alt="LinkedIn" />
+            </a>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <p>© 2025 Muhammad Sarim | Designed with HTML, CSS, & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
